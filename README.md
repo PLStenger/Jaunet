@@ -27,5 +27,10 @@ First, open your terminal. Then, run these two command lines :
   
     time nohup bash 00_quality_check_by_FastQC.sh &> 00_quality_check_by_FastQC.out
     >
+  
+    time nohup bash 01_renamed_sequences.sh &> 01_renamed_sequences.out
+    >real	0m9,114s
+    >user	0m0,355s
+    >sys	0m6,420s
 
 </details> 
