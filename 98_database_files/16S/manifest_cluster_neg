@@ -1,0 +1,4 @@
+sample-id	forward-absolute-filepath	reverse-absolute-filepath
+JAUNET-NEG-T11	/scratch_vol1/fungi/Jaunet/03_cleaned_data/DATAOUTPUT_16S/JAUNET-NEG-T11-1_S145_R1.paired.fastq.gz	/scratch_vol1/fungi/Jaunet/03_cleaned_data/DATAOUTPUT_16S/JAUNET-NEG-T11-1_S145_R2.paired.fastq.gz
+JAUNET-NEG-T3	/scratch_vol1/fungi/Jaunet/03_cleaned_data/DATAOUTPUT_16S/JAUNET-NEG-T3-1_S49_R1.paired.fastq.gz	/scratch_vol1/fungi/Jaunet/03_cleaned_data/DATAOUTPUT_16S/JAUNET-NEG-T3-1_S49_R2.paired.fastq.gz
+JAUNET-NEG-T8	/scratch_vol1/fungi/Jaunet/03_cleaned_data/DATAOUTPUT_16S/JAUNET-NEG-T8-1_S97_R1.paired.fastq.gz	/scratch_vol1/fungi/Jaunet/03_cleaned_data/DATAOUTPUT_16S/JAUNET-NEG-T8-1_S97_R2.paired.fastq.gz
