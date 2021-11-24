@@ -38,22 +38,33 @@ First, open your terminal. Then, run these two command lines :
   
      
     time nohup bash 02_trimmomatic_q30.sh &> 02_trimmomatic_q30.out
-    >
+    >real    74m13,168s
+    >user    535m20,636s
+    >sys     24m43,419s
   
     time nohup bash 03_cleaned_data_quality_check_by_FastQC.sh &> 03_cleaned_data_quality_check_by_FastQC.out
-    >
+    >real    44m31,850s
+    >user    69m36,311s
+    >sys     3m45,328s
   
     time nohup bash 04_qiime2_import_PE.sh &> 04_qiime2_import_PE.out
-    >
+    >real    3m46,676s
+    >user    3m44,336s
+    >sys     0m35,434s
   
     time nohup bash 05_qiime2_denoise_PE.sh &> 05_qiime2_denoise_PE.out
-    >
+    >real    103m44,848s
+    >user    484m44,613s
+    >sys     10m8,215s
   
     time nohup bash 06_qiime2_tree_PE.sh &> 06_qiime2_tree_PE.out
-    >
+    >real    2m35,519s
+    >user    2m47,075s
+    >sys     0m29,329s
   
     time nohup bash 07_qiime2_rarefaction_PE.sh &> 07_qiime2_rarefaction_PE.out
     >
+  
     time nohup bash 08_qiime2_calculate_and_explore_diversity_metrics_PE.sh &> 08_qiime2_calculate_and_explore_diversity_metrics_PE.out
     >
   
