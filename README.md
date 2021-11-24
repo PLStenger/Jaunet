@@ -1,5 +1,8 @@
 # Jaunet
 
+  <div align="center">
+  <img src="https://github.com/PLStenger/Jaunet/blob/main/98_database_files/Jaunet_plan_8modalites.png" width="800">
+  </div>
 
 ### Installing pipeline :
 
