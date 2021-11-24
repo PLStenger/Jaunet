@@ -4,19 +4,19 @@
 # trimmomatic manual : http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/TrimmomaticManual_V0.32.pdf
 
 # pathways in cluster:
-DATADIRECTORY_ITS=/scratch_vol1/fungi/Araucaria_columnaris_diversity/02_pooled_data/ITS
-DATADIRECTORY_16S=/scratch_vol1/fungi/Araucaria_columnaris_diversity/02_pooled_data/16S
-DATAOUTPUT_ITS=/scratch_vol1/fungi/Araucaria_columnaris_diversity/03_cleaned_data/DATAOUTPUT_ITS
-DATAOUTPUT_16S=/scratch_vol1/fungi/Araucaria_columnaris_diversity/03_cleaned_data/DATAOUTPUT_16S
+DATADIRECTORY_ITS=/scratch_vol1/fungi/Jaunet/02_pooled_data/ITS
+DATADIRECTORY_16S=/scratch_vol1/fungi/Jaunet/02_pooled_data/16S
+DATAOUTPUT_ITS=/scratch_vol1/fungi/Jaunet/03_cleaned_data/DATAOUTPUT_ITS
+DATAOUTPUT_16S=/scratch_vol1/fungi/Jaunet/03_cleaned_data/DATAOUTPUT_16S
 
 WORKING_DIRECTORY=/scratch_vol1/fungi/Araucaria_columnaris_diversity
 
 
 # pathways in local:
-#DATADIRECTORY_ITS=/Users/pierre-louisstenger/Documents/PostDoc_02_MetaBarcoding_IAC/02_Data/18_Araucaria/Araucaria_columnaris_diversity/01_pooled/ITS
-#DATADIRECTORY_16S=/Users/pierre-louisstenger/Documents/PostDoc_02_MetaBarcoding_IAC/02_Data/18_Araucaria/Araucaria_columnaris_diversity/01_pooled/16S
-#DATAOUTPUT_ITS=/Users/pierre-louisstenger/Documents/PostDoc_02_MetaBarcoding_IAC/02_Data/18_Araucaria/Araucaria_columnaris_diversity/03_cleaned_data/DATAOUTPUT_ITS
-#DATAOUTPUT_16S=/Users/pierre-louisstenger/Documents/PostDoc_02_MetaBarcoding_IAC/02_Data/18_Araucaria/Araucaria_columnaris_diversity/03_cleaned_data/DATAOUTPUT_16S
+#DATADIRECTORY_ITS=/Users/pierre-louisstenger/Documents/PostDoc_02_MetaBarcoding_IAC/02_Data/19_Jaunet/Jaunet/01_pooled/ITS
+#DATADIRECTORY_16S=/Users/pierre-louisstenger/Documents/PostDoc_02_MetaBarcoding_IAC/02_Data/19_Jaunet/Jaunet/01_pooled/16S
+#DATAOUTPUT_ITS=/Users/pierre-louisstenger/Documents/PostDoc_02_MetaBarcoding_IAC/02_Data/19_Jaunet/Jaunet/03_cleaned_data/DATAOUTPUT_ITS
+#DATAOUTPUT_16S=/Users/pierre-louisstenger/Documents/PostDoc_02_MetaBarcoding_IAC/02_Data/19_Jaunet/Jaunet/03_cleaned_data/DATAOUTPUT_16S
 
 eval "$(conda shell.bash hook)"
 conda activate trimmomatic
